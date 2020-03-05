@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ttai.demo.mapper.OriTraceEntityMapper">
+  <resultMap id="BaseResultMap" type="com.ttai.demo.entity.OriTraceEntity">
+    <!--@mbg.generated generated on Sat Feb 29 21:27:28 CST 2020.-->
+    <!--@Table ori_trace_entity-->
+    <id column="ori_number" jdbcType="VARCHAR" property="oriNumber" />
+    <result column="species_name" jdbcType="VARCHAR" property="speciesName" />
+    <result column="ori_base_name" jdbcType="VARCHAR" property="oriBaseName" />
+    <result column="ori_base_number" jdbcType="VARCHAR" property="oriBaseNumber" />
+    <result column="feed_batch" jdbcType="VARCHAR" property="feedBatch" />
+    <result column="pond_number" jdbcType="VARCHAR" property="pondNumber" />
+    <result column="weight" jdbcType="INTEGER" property="weight" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="size" jdbcType="VARCHAR" property="size" />
+    <result column="harvest_date" jdbcType="VARCHAR" property="harvestDate" />
+    <result column="deliver_data" jdbcType="VARCHAR" property="deliverData" />
+    <result column="base_phone_number" jdbcType="VARCHAR" property="basePhoneNumber" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat Feb 29 21:27:28 CST 2020.-->
+    ori_number, species_name, ori_base_name, ori_base_number, feed_batch, pond_number, 
+    weight, `count`, `size`, harvest_date, deliver_data, base_phone_number
+  </sql>
+</mapper>

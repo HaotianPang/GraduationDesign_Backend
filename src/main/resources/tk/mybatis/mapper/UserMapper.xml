@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ttai.demo.mapper.UserMapper">
+  <resultMap id="BaseResultMap" type="com.ttai.demo.entity.User">
+    <!--@mbg.generated generated on Fri Feb 28 15:56:08 CST 2020.-->
+    <!--@Table user-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="phoneNumber" jdbcType="VARCHAR" property="phonenumber" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Fri Feb 28 15:56:08 CST 2020.-->
+    id, phoneNumber, `password`
+  </sql>
+</mapper>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ttai.demo.mapper.FacTraceEntitiyMapper">
+  <resultMap id="BaseResultMap" type="com.ttai.demo.entity.FacTraceEntitiy">
+    <!--@mbg.generated generated on Sat Feb 29 21:27:10 CST 2020.-->
+    <!--@Table fac_trace_entitiy-->
+    <id column="fact_number" jdbcType="VARCHAR" property="factNumber" />
+    <result column="factory_method" jdbcType="VARCHAR" property="factoryMethod" />
+    <result column="signiture" jdbcType="VARCHAR" property="signiture" />
+    <result column="list_date" jdbcType="VARCHAR" property="listDate" />
+    <result column="produciton_name" jdbcType="VARCHAR" property="producitonName" />
+    <result column="excutes_stander" jdbcType="VARCHAR" property="excutesStander" />
+    <result column="facotryname" jdbcType="VARCHAR" property="facotryname" />
+    <result column="factory_number" jdbcType="VARCHAR" property="factoryNumber" />
+    <result column="licence_number" jdbcType="VARCHAR" property="licenceNumber" />
+    <result column="factory_class" jdbcType="VARCHAR" property="factoryClass" />
+    <result column="origin_number" jdbcType="VARCHAR" property="originNumber" />
+    <result column="size" jdbcType="VARCHAR" property="size" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sat Feb 29 21:27:10 CST 2020.-->
+    fact_number, factory_method, signiture, list_date, produciton_name, excutes_stander, 
+    facotryname, factory_number, licence_number, factory_class, origin_number, `size`
+  </sql>
+</mapper>
